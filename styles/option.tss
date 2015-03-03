@@ -1,0 +1,40 @@
+"Label" : {
+	touchEnabled: false
+}
+
+".optionRowView" : {
+	height: "42dp",
+	backgroundColor:"#f1f1f3",
+}
+
+"#borderContainer":{
+   visible: false	
+}
+
+/*
+ * 
+ */
+".selectedRowView" : {
+	height: "42dp",
+	backgroundColor:"#356765",
+}
+
+".cancelRowView" : {
+	height: "42dp",
+	backgroundColor:"#000000",
+}
+
+".optionLabel": {
+	color:"#cacaca",
+	font: { fontFamily: "Helvetica Neue", fontSize: "17dp"}
+}
+
+".selectedLabel": {
+	color:"#ffffff",
+	font: { fontFamily: "Helvetica Neue", fontSize: "17dp"}
+}
+
+".cancelLabel": {
+	color:"#ffffff",
+	font: { fontFamily: "Helvetica Neue", fontSize: "17dp"}
+}

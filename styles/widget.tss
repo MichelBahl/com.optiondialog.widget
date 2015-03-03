@@ -1,0 +1,32 @@
+"#optionTitleLabel": {
+	color: '#454951',
+	font: {
+		fontSize: "25dp",
+		fontFamily: "Helvetica Neue",
+	},
+	color: "#FFFFFF"
+},
+"#optionWrapper" : {
+	visible: true,
+	height: Ti.UI.SIZE,
+	layout: 'vertical',
+	bottom: "0dp",
+},
+"#optionRowsWrapper" : {
+	height: Ti.UI.SIZE,
+	layout: 'vertical',
+},
+"#optionTitleView" : {
+	height: "50dp",
+	backgroundColor: "#00BFFF",
+	bubbleParent: false
+},
+"#optionWindow[platform=ios]" : {
+	height: Ti.UI.FILL,
+	backgroundColor: "#00000000",
+}
+"#optionWindow[platform=android]" : {
+	height: Ti.UI.FILL,
+	backgroundColor: "#00000000",
+	visible: false
+}
