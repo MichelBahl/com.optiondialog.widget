@@ -9,7 +9,7 @@ of the screen for iOS and Android.
 ## Features
 * Darkened background
 * Slide in can be delayed by settings
-* Style able via TSS
+* Styleable via TSS
 
 
 ### How to
