@@ -1,0 +1,17 @@
+<Alloy>
+	<Window backgroundColor="#FFFFFF">
+		<View layout="vertical" height="Ti.UI.SIZE" top="100dp">
+			<Button backgroundColor="#FFFFFF" title="Dialog One" onClick="doDialogOne" top="10dp"></Button>
+			<Button backgroundColor="#FFFFFF" title="Dialog Two" onClick="doDialogTwo" top="10dp"></Button>
+			<Button backgroundColor="#FFFFFF" title="Dialog Three" onClick="doDialogThree" top="10dp"></Button>
+			<Button backgroundColor="#FFFFFF" title="Dialog Four" onClick="doDialogFour" top="10dp"></Button>
+			<Button backgroundColor="#FFFFFF" title="Dialog Five" onClick="doDialogFive" top="10dp"></Button>
+			
+		</View>
+		<Widget src="com.optiondialog.widget" id="optionDialogOne" onClick="doClickOptionDialog"></Widget>
+		<Widget src="com.optiondialog.widget" id="optionDialogTwo" onClick="doClickOptionDialog"></Widget>
+		<Widget src="com.optiondialog.widget" id="optionDialogThree" onClick="doClickOptionDialog"></Widget>
+		<Widget src="com.optiondialog.widget" id="optionDialogFour" onClick="doClickOptionDialog"></Widget>
+		<Widget src="com.optiondialog.widget" id="optionDialogFive" onClick="doClickOptionDialog"></Widget>
+	</Window>
+</Alloy>

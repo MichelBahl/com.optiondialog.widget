@@ -1,0 +1,72 @@
+//Standard version
+"#optionDialogOne" : {
+	title:"Choose an Option",
+	options:[
+				"Option 1", 
+				"Option 2",
+				"Option 3"
+			],
+	cancel: 	"Cancel",
+}
+
+//Show border between options
+"#optionDialogTwo" : {
+	title:"Choose an Option",
+	showBorder: true,
+	options:[
+				"Option 1", 
+				"Option 2",
+				"Option 3"
+			],
+	cancel: 	"Cancel",
+}
+
+//Slow darkening
+"#optionDialogThree" : {
+	title:"Choose an Option",
+	options:[
+				"Option 1", 
+				"Option 2",
+				"Option 3"
+			],
+	cancel: 	"Cancel",
+	settings: {
+		animationDuration: 5000
+	}
+}
+
+//Delayed alert, onClick event get fired when animation has been completed
+"#optionDialogFour" : {
+	title:"Choose an Option",
+	options:[
+				"Option 1", 
+				"Option 2",
+				"Option 3"
+			],
+	settings: {
+		animationDuration: 2500,
+		delayClickEvent: true,
+	},
+	cancel: 	"Cancel",
+}
+
+//Custom backgroundcolor
+"#optionDialogFive" : {
+	title:"Choose an Option",
+	options:[
+				"Option 1", 
+				"Option 2",
+				"Option 3"
+			],
+	cancel: 	"Cancel",
+	
+	settings: {
+		animationDuration: 3000,
+		backgoundColorFrom: "#FF0000",
+		backgoundColorTo: "#00FF00",
+	}
+}
+
+"Button[platform=android]":{
+	color: "#00BFFF"
+}
