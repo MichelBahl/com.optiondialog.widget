@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="optionRowView" id="optionView">
+		<Label id="optionRowLabel"></Label>
+		<View id="borderContainer">
+			<Widget src="com.optiondialog.widget" name="borderView" id="borderView" />
+		</View>
+	</View>
+</Alloy>

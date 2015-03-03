@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="optionWindow" platform="ios">
+		<View id="optionWrapper" onClick="doClickOptionDialog">
+			<View id="optionTitleView">
+				<Label id="optionTitleLabel"></Label>
+				<Widget src="com.optiondialog.widget"  borderStyle="darkGrey" borderPos="bottom" name="borderView" id="borderView" />
+			</View>
+			<View id="optionRowsWrapper">
+			</View>
+		</View>
+	</Window>
+	<View id="optionWindow" platform="android">
+		<View id="optionWrapper" onClick="doClickOptionDialog">
+			<View id="optionTitleView">
+				<Label id="optionTitleLabel"></Label>
+				<Widget src="com.optiondialog.widget"  borderStyle="darkGrey" borderPos="bottom" name="borderView" id="borderView" />
+			</View>
+			<View id="optionRowsWrapper">
+			</View>
+		</View>
+	</View>
+</Alloy>

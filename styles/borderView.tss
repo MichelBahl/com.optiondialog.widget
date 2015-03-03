@@ -1,0 +1,7 @@
+
+".darkGrey" : {
+   height: 1,
+   width: Ti.UI.FILL,
+   backgroundColor: "#dadada",
+   bottom: 0,
+}	
