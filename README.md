@@ -53,6 +53,16 @@ function doClickOptionDialog(e){
 }
 ```
 
+### Video demo
+
+Android:
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/DusYxxbE6RU/0.jpg)](http://youtu.be/DusYxxbE6RU)
+
+iOS:
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ohNTD04HsSA/0.jpg)](http://youtu.be/ohNTD04HsSA)
+
 
 ## Testing
 There is a test app in [example](https://github.com/MichelBahl/com.optiondialog.widget/tree/example) branch.
