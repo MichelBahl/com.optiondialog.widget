@@ -104,6 +104,10 @@ function toggleWindow(args){
 /* Exported functions
  * 
  */
+function setOptions(opts) {
+	options = opts;
+	createOptions();
+}
 function show(){
 	
 	for (var d = $.optionRowsWrapper.children.length-1; d >= 0; d--) {
@@ -164,6 +168,7 @@ function doClickOptionDialog (e) {
 }
 //--------------------------------------------------------------------------
 
+exports.setOptions = setOptions;
 exports.setSelectedOption = setSelectedOption;
 exports.show = show;
 exports.options = options;
