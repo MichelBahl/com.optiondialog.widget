@@ -10,6 +10,7 @@ var rowIndex		=	0;
 var selectedOption	=	null;
 var isOptionCreated	=	false;
 var settings		=	args.settings || {};
+var optionVar		=	'';
 
 settings.duration			=	settings.animationDuration || 500;
 settings.backgoundColorFrom	=	settings.backgoundColorFrom || "#4C000000";
@@ -28,6 +29,7 @@ function createOptions(){
 	for(rowIndex in options){
 		
 		var optionView  = Widget.createController('option',{	optionNumber: rowIndex,
+																key: optionVar,
 																selected: false,
 																showBorder: showBorder,
 																captionLabel: options[rowIndex],
@@ -104,10 +106,13 @@ function toggleWindow(args){
 /* Exported functions
  * 
  */
-function setOptions(opts) {
+function setOptions(title,opts,optvar) {
 	options = opts;
+	optionTitle = title;
+	optionVar = optvar;
 	createOptions();
 }
+
 function show(){
 	
 	for (var d = $.optionRowsWrapper.children.length-1; d >= 0; d--) {
@@ -139,8 +144,8 @@ function setSelectedOption(option){
 function triggerClickEvent (e) {
 
 	$.trigger('click', {
-		
 		index: e.source.optionNumber,
+		key: e.source.key,
 		source: e.source
 	});  
 }

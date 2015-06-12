@@ -3,6 +3,7 @@ var args = arguments[0] || {};
 var optionsLabel	=	args.captionLabel;
 var rowType			=	args.rowType;
 var optionNumber	=	args.optionNumber;
+var key				=	args.key;
 var showBorder		=	args.showBorder || false;
 var rowStyle 		= 	null;
 var labelStyle 		= 	null;
@@ -27,3 +28,4 @@ $.optionRowLabel.text = optionsLabel;
 
 
 $.optionView.optionNumber	= optionNumber;
+$.optionView.key			= key;
